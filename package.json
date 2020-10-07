@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-10-parcel",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-10-parcel/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salimyaro/goit-js-hw-10-parcel.git"
+  },
+  "author": "Salimov <3508880@i.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salimyaro/goit-js-hw-10-parcel/issues"
+  },
+  "homepage": "https://github.com/Salimyaro/goit-js-hw-10-parcel#readme",
+  "dependencies": {
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": [],
+  "description": ""
+}
